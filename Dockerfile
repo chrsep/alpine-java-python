@@ -1,8 +1,9 @@
 FROM alpine:3.7
 
 RUN apk add --update \
-    python \
-    python-dev \
+    ls \
+    python3 \
+    python3-dev \
     py-pip \
     build-base \
     openjdk8-jre \
