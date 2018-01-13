@@ -5,7 +5,7 @@ RUN apk add --update \
     python-dev \
     py-pip \
     build-base \
-    FROM gliderlabs/alpine:3.3 \
+    openjdk8-jre \
   && pip install virtualenv \
   && rm -rf /var/cache/apk/*
 
